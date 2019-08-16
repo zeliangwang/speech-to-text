@@ -25,6 +25,7 @@ def transcribe(data):
         "text": text
     }
 
+
 all_text = pool.map(transcribe, enumerate(files))
 pool.close()
 pool.join()
