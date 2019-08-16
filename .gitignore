@@ -1,5 +1,5 @@
-.DS_Store
-*.swp
+.vscode/
 api-key.json
 parts/
-venv
+meeting_voice/
+
